@@ -1,5 +1,5 @@
 {% set name = "napari-generic-simulator" %}
-{% set version = "0.0.19" %}
+{% set version = "0.0.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-generic-SIMulator-{{ version }}.tar.gz
-  sha256: 119c2bb7634b64c5ab712ed1357c049b8ba6dbf7b2911d3dbe83bbd1e66ab753
+  sha256: ce2b5cfd1e03de5c593d7aa0df61d9f3a7d3f9ff045309f4bb4bdf4584f63bc8
 
 build:
   noarch: python

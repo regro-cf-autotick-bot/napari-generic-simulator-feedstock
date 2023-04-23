@@ -26,6 +26,9 @@ requirements:
     - python >=3.8
     - qtpy
     - tifffile
+    - open3d
+    - opt_einsum
+    - matplotlib-base
 
 test:
   imports:

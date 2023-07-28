@@ -23,6 +23,7 @@ requirements:
     - magicgui
     - napari
     - numpy
+    - opt-einsum
     - python >=3.8
     - qtpy
     - tifffile
